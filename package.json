@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "start": "cd apps/api && npm run start:dev & cd apps/front && npm run dev"
   },
